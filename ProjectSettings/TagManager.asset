@@ -2,16 +2,16 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
+  serializedVersion: 3
   tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
-  - 
+  - Ground
   - 
   - 
   - 
@@ -38,6 +38,26 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 751238537
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: PowerUps
+    uniqueID: 3589826633
+    locked: 0
+  - name: Enemies
+    uniqueID: 2407612809
+    locked: 0
+  - name: Mario
+    uniqueID: 462315343
+    locked: 0
+  - name: Canos
+    uniqueID: 4100400175
+    locked: 0
+  - name: Blocos
+    uniqueID: 2852509813
+    locked: 0
+  m_RenderingLayers:
+  - Default
